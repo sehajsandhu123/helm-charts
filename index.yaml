@@ -3,7 +3,7 @@ entries:
   rook-ceph:
   - apiVersion: v2
     appVersion: v1.13.6
-    created: "2024-03-10T13:46:23.517322503+05:30"
+    created: "2024-03-10T21:30:37.467385882+05:30"
     dependencies:
     - name: library
       repository: file://../library
@@ -20,7 +20,7 @@ entries:
   rook-ceph-cluster:
   - apiVersion: v2
     appVersion: v1.13.6
-    created: "2024-03-10T13:46:23.503607705+05:30"
+    created: "2024-03-10T21:30:37.453653383+05:30"
     dependencies:
     - name: library
       repository: file://../library
@@ -34,4 +34,36 @@ entries:
     urls:
     - rook-ceph-cluster-v1.13.6.tgz
     version: v1.13.6
-generated: "2024-03-10T13:46:23.497233912+05:30"
+  strimzi-kafka-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-03-10T21:30:37.489583013+05:30"
+    description: 'Strimzi: Apache Kafka running on Kubernetes'
+    digest: dfa7e5c9e08c3c8d94d334c354571a24b601f77e90e071fe03de3d9ef8fc6e6d
+    home: https://strimzi.io/
+    icon: https://raw.githubusercontent.com/strimzi/strimzi-kafka-operator/main/documentation/logo/strimzi_logo.png
+    keywords:
+    - kafka
+    - queue
+    - stream
+    - event
+    - messaging
+    - datastore
+    - topic
+    maintainers:
+    - name: Frawless
+    - name: ppatierno
+    - name: samuel-hawker
+    - name: scholzj
+    - name: tombentley
+    - name: sknot-rh
+    - name: PaulRMellor
+    - name: im-konge
+    - name: see-quick
+    name: strimzi-kafka-operator
+    sources:
+    - https://github.com/strimzi/strimzi-kafka-operator
+    urls:
+    - strimzi-0.39.0-chart.tgz
+    version: 0.1.1
+generated: "2024-03-10T21:30:37.447733884+05:30"
